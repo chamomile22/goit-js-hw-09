@@ -1,0 +1,25 @@
+#datetime-picker {
+  height: 30px;
+  font-size: 15px;
+}
+button[data-start] {
+  height: 30px;
+  width: 70px;
+  font-size: 15px;
+}
+.timer {
+  margin-top: 10px;
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.field:not(:last-child) {
+  margin-right: 25px;
+}
+.value {
+  font-weight: 600;
+  font-size: 40px;
+}
