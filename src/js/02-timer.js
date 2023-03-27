@@ -29,7 +29,6 @@ const options = {
       const { days, hours, minutes, seconds } = convertMs(
         selectedDates[0] - new Date()
       );
-      console.log(selectedDates[0] - new Date());
       timerElements.days.textContent = addLeadingZero(days);
       timerElements.hours.textContent = addLeadingZero(hours);
       timerElements.minutes.textContent = addLeadingZero(minutes);
