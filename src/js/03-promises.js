@@ -9,7 +9,7 @@ const refs = {
 
 refs.form.addEventListener('submit', event => {
   event.preventDefault();
-  delay = Number(refs.delay.value);
+  let delay = Number(refs.delay.value);
   for (let i = 0; i < Number(refs.amount.value); i++) {
     createPromise(i, delay)
       .then(value => {
