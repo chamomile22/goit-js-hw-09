@@ -27,9 +27,9 @@ function createPromise(position, delay) {
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (shouldResolve) {
-        resolve(`✅ Fulfilled promise ${position + 1} in ${delay}ms`);
+        resolve(`Fulfilled promise ${position + 1} in ${delay}ms`);
       } else {
-        reject(`❌ Rejected promise ${position + 1} in ${delay}ms`);
+        reject(`Rejected promise ${position + 1} in ${delay}ms`);
       }
     }, delay);
   });
